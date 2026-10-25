@@ -1,0 +1,31 @@
+name: EconomySMP
+version: '${project.version}'
+main: com.example.economysmp.EconomySMP
+api-version: '26.2'
+description: Economy, sell shop, shard shop and sidebar scoreboard.
+commands:
+  balance:
+    description: Check your balance
+    aliases: [bal, money]
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>
+  sell:
+    description: Open the sell shop
+  shop:
+    description: Open the buy shop
+  shardshop:
+    description: Open the shard shop
+    aliases: [shards, shardsshop]
+  scoreboard:
+    description: Edit the sidebar scoreboard
+    aliases: [sb]
+    usage: /scoreboard <list|title|add|set|remove>
+    permission: economysmp.admin
+  eco:
+    description: Admin economy command
+    usage: /eco <give|take|set> <money|shards> <player> <amount>
+    permission: economysmp.admin
+permissions:
+  economysmp.admin:
+    default: op

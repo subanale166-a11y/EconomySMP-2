@@ -1,0 +1,161 @@
+# /shop menu (paid with money). Edit, then run /eco reload.
+# Simple item:      MATERIAL: price
+# Enchanted item:   a name, then material / price / enchants (see "gear" below)
+title: "&8Shop"
+
+categories:
+  gear:
+    name: "&9Gear"
+    icon: DIAMOND_SWORD
+    slot: 11
+    items:
+      diamond_sword:
+        material: DIAMOND_SWORD
+        price: 6000
+        enchants: [sharpness:5, unbreaking:3, mending:1, fire_aspect:2, looting:3]
+      diamond_pickaxe:
+        material: DIAMOND_PICKAXE
+        price: 6000
+        enchants: [efficiency:5, unbreaking:3, mending:1, fortune:3]
+      diamond_axe:
+        material: DIAMOND_AXE
+        price: 7000
+        enchants: [sharpness:5, efficiency:5, unbreaking:3, mending:1]
+      diamond_shovel:
+        material: DIAMOND_SHOVEL
+        price: 4000
+        enchants: [efficiency:5, unbreaking:3, mending:1]
+      diamond_hoe:
+        material: DIAMOND_HOE
+        price: 3000
+        enchants: [efficiency:5, unbreaking:3, mending:1]
+      diamond_helmet:
+        material: DIAMOND_HELMET
+        price: 6000
+        enchants: [protection:4, unbreaking:3, mending:1, respiration:3, aqua_affinity:1]
+      diamond_chestplate:
+        material: DIAMOND_CHESTPLATE
+        price: 9000
+        enchants: [protection:4, unbreaking:3, mending:1]
+      diamond_leggings:
+        material: DIAMOND_LEGGINGS
+        price: 8000
+        enchants: [protection:4, unbreaking:3, mending:1]
+      diamond_boots:
+        material: DIAMOND_BOOTS
+        price: 6000
+        enchants: [protection:4, unbreaking:3, mending:1, feather_falling:4, depth_strider:3]
+
+  crystal-pvp:
+    name: "&bCrystal PvP"
+    icon: END_CRYSTAL
+    slot: 12
+    items:
+      END_CRYSTAL: 250
+      OBSIDIAN: 150
+      RESPAWN_ANCHOR: 1500
+      GLOWSTONE: 100
+      TOTEM_OF_UNDYING: 5000
+      ENDER_PEARL: 100
+      EXPERIENCE_BOTTLE: 60
+      FIREWORK_ROCKET: 30
+      SHIELD: 400
+      ENCHANTED_GOLDEN_APPLE: 4000
+      SHULKER_BOX: 2500
+      WHITE_SHULKER_BOX: 2500
+      ORANGE_SHULKER_BOX: 2500
+      MAGENTA_SHULKER_BOX: 2500
+      LIGHT_BLUE_SHULKER_BOX: 2500
+      YELLOW_SHULKER_BOX: 2500
+      LIME_SHULKER_BOX: 2500
+      PINK_SHULKER_BOX: 2500
+      GRAY_SHULKER_BOX: 2500
+      LIGHT_GRAY_SHULKER_BOX: 2500
+      CYAN_SHULKER_BOX: 2500
+      PURPLE_SHULKER_BOX: 2500
+      BLUE_SHULKER_BOX: 2500
+      BROWN_SHULKER_BOX: 2500
+      GREEN_SHULKER_BOX: 2500
+      RED_SHULKER_BOX: 2500
+      BLACK_SHULKER_BOX: 2500
+
+  food:
+    name: "&6Food"
+    icon: COOKED_BEEF
+    slot: 13
+    items:
+      COOKED_BEEF: 20
+      COOKED_PORKCHOP: 20
+      COOKED_CHICKEN: 15
+      COOKED_MUTTON: 15
+      BREAD: 10
+      BAKED_POTATO: 10
+      PUMPKIN_PIE: 15
+      GOLDEN_CARROT: 40
+      GOLDEN_APPLE: 500
+      CAKE: 100
+
+  redstone:
+    name: "&cRedstone"
+    icon: REDSTONE_BLOCK
+    slot: 14
+    items:
+      REDSTONE: 10
+      REDSTONE_BLOCK: 90
+      REPEATER: 30
+      COMPARATOR: 40
+      OBSERVER: 40
+      PISTON: 50
+      STICKY_PISTON: 80
+      HOPPER: 120
+      DISPENSER: 70
+      DROPPER: 60
+      CRAFTER: 150
+      TNT: 100
+      TNT_MINECART: 150
+      LEVER: 5
+      REDSTONE_TORCH: 10
+      REDSTONE_LAMP: 40
+      COPPER_BULB: 60
+      NOTE_BLOCK: 40
+      TARGET: 60
+      DAYLIGHT_DETECTOR: 80
+      TRIPWIRE_HOOK: 20
+      TRAPPED_CHEST: 60
+      LIGHTNING_ROD: 50
+      SCULK_SENSOR: 200
+      CALIBRATED_SCULK_SENSOR: 350
+      SLIME_BLOCK: 100
+      HONEY_BLOCK: 100
+      RAIL: 15
+      POWERED_RAIL: 40
+      DETECTOR_RAIL: 30
+      ACTIVATOR_RAIL: 30
+      MINECART: 40
+      STONE_PRESSURE_PLATE: 8
+      OAK_PRESSURE_PLATE: 8
+      STONE_BUTTON: 5
+      OAK_BUTTON: 5
+      IRON_DOOR: 30
+      IRON_TRAPDOOR: 25
+
+  blocks:
+    name: "&aBlocks"
+    icon: GRASS_BLOCK
+    slot: 15
+    items:
+      STONE: 4
+      COBBLESTONE: 2
+      DEEPSLATE: 4
+      STONE_BRICKS: 5
+      BRICKS: 8
+      OAK_LOG: 8
+      OAK_PLANKS: 3
+      GLASS: 6
+      SAND: 3
+      NETHERRACK: 2
+      END_STONE: 8
+      QUARTZ_BLOCK: 30
+      SEA_LANTERN: 40
+      WHITE_WOOL: 6
+      TERRACOTTA: 6

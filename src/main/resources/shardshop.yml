@@ -1,0 +1,68 @@
+# /shardshop menu (paid with shards). Edit, then run /eco reload.
+# enchants format: [name:level, name:level]
+title: "&5Shard Shop"
+size: 54
+
+items:
+  netherite_helmet:
+    material: NETHERITE_HELMET
+    cost: 150
+    slot: 10
+    enchants: [protection:4, unbreaking:3, mending:1, respiration:3, aqua_affinity:1]
+  netherite_chestplate:
+    material: NETHERITE_CHESTPLATE
+    cost: 240
+    slot: 11
+    enchants: [protection:4, unbreaking:3, mending:1]
+  netherite_leggings:
+    material: NETHERITE_LEGGINGS
+    cost: 210
+    slot: 12
+    enchants: [protection:4, unbreaking:3, mending:1, swift_sneak:3]
+  netherite_boots:
+    material: NETHERITE_BOOTS
+    cost: 150
+    slot: 13
+    enchants: [protection:4, unbreaking:3, mending:1, feather_falling:4, depth_strider:3]
+
+  netherite_sword:
+    material: NETHERITE_SWORD
+    cost: 150
+    slot: 19
+    enchants: [sharpness:5, unbreaking:3, mending:1, fire_aspect:2, looting:3]
+  netherite_pickaxe:
+    material: NETHERITE_PICKAXE
+    cost: 150
+    slot: 20
+    enchants: [efficiency:5, unbreaking:3, mending:1, fortune:3]
+  netherite_axe:
+    material: NETHERITE_AXE
+    cost: 150
+    slot: 21
+    enchants: [sharpness:5, efficiency:5, unbreaking:3, mending:1]
+  netherite_shovel:
+    material: NETHERITE_SHOVEL
+    cost: 100
+    slot: 22
+    enchants: [efficiency:5, unbreaking:3, mending:1]
+  netherite_hoe:
+    material: NETHERITE_HOE
+    cost: 80
+    slot: 23
+    enchants: [efficiency:5, unbreaking:3, mending:1]
+
+  mace:
+    material: MACE
+    cost: 300
+    slot: 28
+    enchants: [density:5, unbreaking:3, mending:1]
+  elytra:
+    material: ELYTRA
+    cost: 250
+    slot: 29
+    enchants: [unbreaking:3, mending:1]
+  bow:
+    material: BOW
+    cost: 120
+    slot: 30
+    enchants: [power:5, punch:2, flame:1, unbreaking:3, mending:1]

@@ -1,0 +1,16 @@
+# Easiest way to edit this is in game:
+#   /scoreboard list
+#   /scoreboard title <text>
+#   /scoreboard add <text>
+#   /scoreboard set <line number> <text>
+#   /scoreboard remove <line number>
+# Colors use & codes. Placeholders: {money} {shards} {playtime} {player}
+# If you edit this file by hand, run /eco reload afterwards.
+title: "&b&lMY SMP"
+lines:
+  - ""
+  - "&a$ &fMoney: &a{money}"
+  - "&d✦ &fShards: &d{shards}"
+  - "&e⌚ &fPlaytime: &e{playtime}"
+  - ""
+  - "&7play.yourserver.net"
